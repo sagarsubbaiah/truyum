@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="C:\Users\Administrator\Desktop\cognizant\truYum\ab.css">
+<script src="C:\Users\Administrator\Desktop\cognizant\truYum\random.js"></script>
+</head>
+<body>
+
+<header>
+<span>
+<font  id="mainhead">truYum</font>
+<img src="D:\sai\git practice\truyum-logo-light.png" alt="truyum" height="80" width="80">
+<a href="menu-item-list-admin.html" id="menutop">Menu</a>
+</span>
+</header>
+
+<form name="foodname" action="edit-menu-item-status.html" onsubmit="return formfill()">
+
+<table style="text-align:center">
+<caption style="text-align:left;font-size:30px"><h3> Edit Menu Item</h3></caption>
+<tr><th>Name</td></th>
+<tr>
+	<td colspan="6"><input type="text" name="title" value="" id="name" required title="Title is required." ></td>
+</tr>
+
+<tr>
+<th>Price(Rs.)</th>
+<th>Active</th>
+<th>Date Of Launch</th>
+<th>Category</th>
+</tr>
+
+<tr>
+<td width=17% ><input type="text" name="price" id="rs" required></td>
+<td width=30%>
+<input type="radio" name="instock" value="yes" required>Yes<input type="radio" name="instock" value="no" required>No</td>
+<td><input type="text" name="date" value="" required></td>
+<td width=10%>
+<select name="category">
+<option value="Starters">Starters</option>
+<option value="Main Course">Main Course</option>
+<option value="Dessert">Dessert</option>
+<option value="Drinks">Drinks</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<th><input type="checkbox" name="freedelivery" value="free delivery">Free Delivery</th>
+</tr>
+
+<tr>
+<td><input type="submit" value="save"></td>
+</tr>
+
+</table>
+
+<form>	
+
+<footer>
+<h2>Copyright@2019</h2>
+</footer>
+
+
+</body>
+
+</html>
